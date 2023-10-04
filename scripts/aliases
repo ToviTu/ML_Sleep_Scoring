@@ -1,0 +1,1 @@
+alias s3='aws --endpoint https://s3-central.nrp-nautilus.io s3'
