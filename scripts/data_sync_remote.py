@@ -12,6 +12,7 @@ import fnmatch
 import io
 import re
 import tempfile
+import pandas as pd
 from pathlib import Path
 
 ANIMAL = "CAF49"
@@ -138,6 +139,15 @@ def data_sync(client, error=True, fake=False):
         sleep_labels[sleep_labels == 5] = 1
         sleep_labels[sleep_labels == 4] = 2
 
+        # SW = pd.read_pickle(
+        #     "/media/HlabShare/james/SW_array_FINAL_Cleaned_MultipleScorerVersion.pkl"
+        # )
+        # sleep_labels = SW[SW.Animal == re.search(f"(CAF\d+)|(KDR\d+)", ANIMAL).group()][
+        #     "SW Array"
+        # ].iloc[0]
+        # sleep_labels[sleep_labels == 5] = 1
+        # sleep_labels[sleep_labels == 4] = 2
+
         print(
             f"Found {len(label_files)} label files and {len(neural_files)} neural files"
         )
@@ -164,12 +174,17 @@ def data_sync(client, error=True, fake=False):
 
         for neural_file_ix, n_file in tqdm.tqdm(enumerate(neural_files)):
             print(f" Loading {n_file}")
-            current_timestamp = load_raw_binary_gain_chmap(
-                client.get_object(Bucket="hengenlab", Key=n_file)["Body"].read(),
-                NUM_CHANNELS,
-                "hs64",
-                t_only=True,
-            )[0]
+            # current_timestamp = load_raw_binary_gain_chmap(
+            #     client.get_object(Bucket="hengenlab", Key=n_file)["Body"].read(),
+            #     NUM_CHANNELS,
+            #     "hs64",
+            #     t_only=True,
+            # )[0]
+            current_timestamp = int.from_bytes(
+                client.get_object(Bucket="hengenlab", Key=n_file)["Body"].read(amt=8),
+                "big",
+                signed=False,
+            )
             current_file_size = (
                 (client.get_object(Bucket="hengenlab", Key=n_file)["ContentLength"] - 8)
                 / NUM_CHANNELS

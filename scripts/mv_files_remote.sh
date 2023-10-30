@@ -1,11 +1,11 @@
 #!/bin/bash
 # First do 'conda activate tovi_dl'
 
-ANIMAL=CAF61_day1
+ANIMAL=CAF62_NEW
 ENDPOINT=https://s3-central.nrp-nautilus.io
-DIR=/media/bs007r/CAF00061/CAF00061_2020-12-07_17-41-34/ #always put '/' in the end
+DIR=/media/bs007r/CAF00062/CAF00062_2020-11-18_16-14-24/ #always put '/' in the end
 DEST=s3://hengenlab/${ANIMAL}/Neural_Data/
-FIRST=288
+FIRST=264
 
 files_to_move=$(ls ${DIR} | grep Head | head -$FIRST)
 #files_to_move=$(ls ${DIR} | grep Head | tail -$FIRST)
