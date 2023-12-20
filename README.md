@@ -7,18 +7,20 @@ Alzheimer’s Disease is an irreversible, neurodegenerative disorder. The molecu
 
 ## Models
 
-<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/1522e468-9db4-4442-b2cf-f80cabca8473" width="400" height="790">
-<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/9198f24b-fe94-421a-aa75-53b7610d886f" width="400" height="790">
-<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/c755a82b-a821-49f1-8924-3e9a041afa5c" width="400" height="790">
-<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/aba6990c-56d3-48f1-8941-813f192227d6" width="400" height="790">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/1522e468-9db4-4442-b2cf-f80cabca8473" width="400" height="400">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/9198f24b-fe94-421a-aa75-53b7610d886f" width="400" height="400">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/c755a82b-a821-49f1-8924-3e9a041afa5c" width="400" height="400">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/aba6990c-56d3-48f1-8941-813f192227d6" width="400" height="400">
 
 ## Results
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/62357cab-5992-4bc6-b6bb-2d6ea05a6049 | width=50)
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/94fe1ac4-119d-4a56-8ce1-b70493e5bbaa | width=50)
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/1524f8e5-4ec6-467f-902b-c5af86e725a8 | width=50)
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/03514954-db45-4adb-8962-0bfe064e1940 | width=50)
+
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/62357cab-5992-4bc6-b6bb-2d6ea05a6049" width="400" height="400">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/94fe1ac4-119d-4a56-8ce1-b70493e5bbaa" width="400" height="400">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/1524f8e5-4ec6-467f-902b-c5af86e725a8" width="400" height="400">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/03514954-db45-4adb-8962-0bfe064e1940" width="400" height="400">
 
 ## Flicker
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/cb87b07b-16e9-46ba-873c-6c43f68c72e0 | width=50)
+
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/cb87b07b-16e9-46ba-873c-6c43f68c72e0" width="400" height="400">
 
 
