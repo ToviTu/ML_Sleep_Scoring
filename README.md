@@ -7,11 +7,10 @@ Alzheimer’s Disease is an irreversible, neurodegenerative disorder. The molecu
 
 ## Models
 
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/1522e468-9db4-4442-b2cf-f80cabca8473 | width=50)
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/9198f24b-fe94-421a-aa75-53b7610d886f | width=50)
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/c755a82b-a821-49f1-8924-3e9a041afa5c | width=50)
-![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/aba6990c-56d3-48f1-8941-813f192227d6 | width=50)
-
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/1522e468-9db4-4442-b2cf-f80cabca8473" width="400" height="790">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/9198f24b-fe94-421a-aa75-53b7610d886f" width="400" height="790">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/c755a82b-a821-49f1-8924-3e9a041afa5c" width="400" height="790">
+<img src="https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/aba6990c-56d3-48f1-8941-813f192227d6" width="400" height="790">
 
 ## Results
 ![image](https://github.com/ToviTu/ML_Sleep_Scoring/assets/52998198/62357cab-5992-4bc6-b6bb-2d6ea05a6049 | width=50)
